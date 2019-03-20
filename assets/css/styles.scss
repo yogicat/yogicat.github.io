@@ -1,0 +1,223 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,700,900&subset=korean');
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+$pretty-green : #01a85e;
+$pretty-light-green: #49ab7a;
+$light-salmon: #F15838;
+
+$min_width: 320px;
+$max_width: 1200px;
+$min_font: 16px;
+$max_font: 24px;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  color: gray;
+}
+
+
+// font-weight
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+// font-size
+.small {
+  font-size: 1.2rem;
+}
+
+.medium {
+  font-size: 1.6rem;
+}
+
+.large {
+  @include fluid-type($min_width, $max_width, 18px, 24px);
+}
+
+.xlarge {
+  @include fluid-type($min_width, $max_width, 26px, 40px);
+}
+
+
+#Email {
+  @extend .xlarge;
+  border: 0;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 1.6rem;
+  padding: 1rem 2rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 20%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+main {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.intro {
+  margin-top: 4rem;
+}
+.projects {
+  margin-top: 24rem;
+}
+.contact {
+  margin-top: 14rem;;
+}
+.worklistgroup {
+  margin: 0;
+  padding: 0;
+}
+
+.worklist {
+  list-style: none;
+  padding: 2rem 0;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+nav {
+  @extend .large;
+  a {
+    padding: 0 2rem;
+  }
+}
+
+em {
+  @extend .bold;
+  font-style: normal;
+  cursor: pointer;
+  position: relative;
+
+  &:hover::before {
+    background: yellow;
+  }
+}
+
+.About {
+  margin-right: 40rem;
+}
+
+#me {
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 40rem;
+    height: 28rem;
+    background: white;
+    background-image: url(/assets/images/dho_jordan.jpg);
+    background-size: cover;
+    z-index: 10;
+    left: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+  }
+  &:hover::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}

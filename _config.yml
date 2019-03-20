@@ -1,0 +1,38 @@
+title: Dahe Oh | Frontend developer and designer from Seoul
+email: hi@daheoh.com
+description: Dahe Oh is a frontend developer and multi disciplinary designer from Seoul.
+baseurl: "/"
+url: "https://daheoh.com"
+github_usename: yogicat
+google_analytics: UA-127168148-1
+
+# Build settings
+markdown: kramdown
+# plugins:
+#   - jekyll-feed
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
