@@ -12,7 +12,8 @@ markdown: kramdown
 #   - jekyll-feed
 
 sass:
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 defaults:
   -
@@ -21,6 +22,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "book"
+    values:
+      layout: "book"
   -
     scope:
       path: ""

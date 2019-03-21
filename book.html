@@ -3,13 +3,22 @@ layout: default
 title: Book
 ---
 
-<h1>Latest</h1>
+<p class="desc">책을 읽고 기록합니다. 읽은 순서대로 정렬되어 있습니다.</p>
 
-<ul>
-  {% for post in site.categories.Book %}
-  <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
+<ul class="booklistgroup hideList">
+  {% for post in site.categories.book %}
+  <li class="booklist hideList">
+    <a class="item" href="{{ post.url }}">
+      <picture style='flex:none; align-self: center;'>
+        <img src="{{ post.img }}" alt="{{ post.title }}">
+      </picture>
+      <div class="booktexts">
+        <p class="booktitle">{{ post.title }}</p>
+        <p class="bookauthor">{{ post.author }}</p>
+        <p style="margin-top: 5px">{{ post.rating }}</p>
+      </div>
+    </a>
+    </a>
   </li>
   {% endfor %}
 </ul>

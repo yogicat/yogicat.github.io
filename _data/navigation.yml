@@ -1,12 +1,16 @@
-- name: Home
+- name: 오다혜
   link: /
   url: /
-- name: About
+- name: 소개
   link: /about
   url: /about.html
-- name: Book
+- name: 책
   link: /book
   url: /book.html
-- name: Blog
+- name: 블로그
   link: /blog
   url: /blog.html
+- name: 사진
+  link: /photos
+  url: /photos.html
+

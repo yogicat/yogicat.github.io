@@ -9,5 +9,5 @@ Email.addEventListener('click', () => {
 
 Email.addEventListener('mouseout', () => {
   const Tooltip = document.getElementById('myTooltip');
-  Tooltip.innerText = "주소 복사";
+  Tooltip.innerText = "클릭해서 주소 복사";
 })

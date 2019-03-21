@@ -1,29 +1,7 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,700,900&subset=korean');
-
-@function strip-unit($value) {
-  @return $value / ($value * 0 + 1);
-}
-
-@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
-  $u1: unit($min-vw);
-  $u2: unit($max-vw);
-  $u3: unit($min-font-size);
-  $u4: unit($max-font-size);
-
-  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
-    & {
-      font-size: $min-font-size;
-      @media screen and (min-width: $min-vw) {
-        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
-      }
-      @media screen and (min-width: $max-vw) {
-        font-size: $max-font-size;
-      }
-    }
-  }
-}
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,500');
+@import "mixin";
 
 $pretty-green : #01a85e;
 $pretty-light-green: #49ab7a;
@@ -53,8 +31,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Gothic A1', sans-serif;
-  font-weight: 300;
   font-size: 1.4rem;
+  font-weight: 300;
   line-height: 1.6;
   word-break: keep-all;
 }
@@ -71,28 +49,12 @@ button:focus {
     outline: none;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
+
 
 .active {
-  color: gray;
+  font-weight: bold;
 }
 
-
-// font-weight
-.light {
-  font-weight: 300;
-}
-
-.bold {
-  font-weight: 700;
-}
-
-.black {
-  font-weight: 900;
-}
 
 // font-size
 .small {
@@ -104,11 +66,11 @@ nav {
 }
 
 .large {
-  @include fluid-type($min_width, $max_width, 18px, 24px);
+  @include fluid-type($min_width, $max_width, 16px, 24px);
 }
 
 .xlarge {
-  @include fluid-type($min_width, $max_width, 26px, 40px);
+  @include fluid-type($min_width, $max_width, 24px, 30px);
 }
 
 
@@ -134,7 +96,6 @@ nav {
   position: absolute;
   z-index: 1;
   bottom: 110%;
-  left: 20%;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -165,11 +126,24 @@ main {
   margin: 0;
   padding: 0;
 }
+.links {
+  margin-top: 14rem;
+}
 
 .worklist {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  max-width: 65rem;
+}
+ul {
+  padding: 0;
+}
+.hideList {
   list-style: none;
-  padding: 2rem 0;
-  border-bottom: 1px solid black;
+  margin: 0;
 }
 
 footer {
@@ -179,14 +153,39 @@ footer {
 }
 
 nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 65rem;
+
   @extend .large;
+
   a {
-    padding: 0 2rem;
+    padding-right: 2rem;
+    font-weight: 300;
+    font-size: medium;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: black;
+      position: absolute;
+      opacity: 0;
+      top: -10px;
+      transition: opacity 0.2s ease;
+    }
+
+   &:hover::after {
+      opacity: 1;
+    }
   }
 }
 
 em {
-  @extend .bold;
+  // @extend .bold;
   font-style: normal;
   cursor: pointer;
   position: relative;
@@ -196,9 +195,6 @@ em {
   }
 }
 
-.About {
-  margin-right: 40rem;
-}
 
 #me {
 
@@ -220,4 +216,52 @@ em {
     visibility: visible;
     opacity: 1;
   }
+}
+
+.booklistgroup {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 14rem;
+}
+
+.booklist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  padding: 10px 20px 20px 0;
+
+  .item {
+    display: flex;
+  }
+  picture {
+    width: 30%;
+
+    img {
+      width: 100%;
+      box-shadow: #00000066 6px 6px 0px 0px;
+    }
+  }
+
+  &:hover {
+    .booktitle {
+      text-decoration: underline;
+    }
+  }
+}
+.booktexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.booktitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.bookauthor {
+  margin: 0;
+  font-size: 1.2rem;
+  color: grey;
+  margin-bottom: auto;
 }
