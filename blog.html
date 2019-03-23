@@ -1,15 +1,18 @@
 ---
 layout: default
-title: Blog
+title: blog
 ---
+{% include navigation.html foo='blog' %}
 
-<h1>Latest</h1>
-
-<ul>
-  {% for post in site.categories.Blog %}
-  <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-  </li>
+<div>
+  {% for post in site.categories.Blog  %}
+    {% assign currentdate = post.date | date: "%B %Y" %}
+    {% if currentdate != date %}
+    <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
+    {% assign date = currentdate %}
+    {% endif %}
+    <ul>
+      <li class="postlist hideList"><a href="{{ post.url }}"><span>{{ post.title }}</span><span>{{ post.date | date_to_string }}</span></a></li>
+    </ul>
   {% endfor %}
-</ul>
+  </div>
