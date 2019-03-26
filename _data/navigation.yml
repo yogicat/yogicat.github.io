@@ -2,10 +2,6 @@
   link: /
   url: /
   page: home
-- name: 소개
-  link: /about
-  url: /about.html
-  page: about
 - name: 책
   link: /book
   url: /book.html

@@ -1,0 +1,15 @@
+links:
+  - Github: "https://github.com/yogicat"
+  - LinkedIn: "https://linkedin.com"
+  - Instagram: "https://instagram.com/ohdayoda"
+
+skills:
+  - name: ES2015
+  - name: React
+  - name: Redux
+  - name: Sass
+  - name: Webpack
+  - name: Parcel
+  - name: Ruby
+  - name: Git
+

@@ -5,15 +5,22 @@ title: home
 {% include navigation.html foo='home'%}
 
 <section class="intro text">
-  <p class="xlarge"><em id="me">오다혜</em>는 서울에서 활동하는 프론트엔드 개발자입니다. 대부분 코딩을 하는데 시간을 보냅니다. 어떤때는 <em id="travel">여행</em>을 갑니다. 가끔씩 <em id="design">디자인</em>을 하기도 합니다. 틈날때면 <em id="book">책</em>을 읽습니다. 매일 아침<em id="yoga">요가</em>를 갑니다. 그리고 <em id="podcast">팟캐스트</em>와 <em id="music">스파티파이</em>를 듣습니다. SNS는 더이상 사용하지 않고, 일기를 씁니다.</p>
+  <p class="xlarge">서울에서 활동하는 프론트엔드 개발자 <em id="me">오다혜</em>입니다. 디자인을 전공하고 인테리어, 건축, UX, UI 디자인에 이르기까지 다양한 디자인 분야에서 일한 경험이 있으며, 기술에 대한 열정과 갈증으로 현재는 프론트엔드 개발자로써의 새로운 삶을 살고있습니다.
+  대부분 시간을 코딩을 하지만, 가끔씩 <em id="design">디자인</em>을 하기도 합니다. 틈날때마다  <em id="book">책</em>을 읽고 <em id="yoga">요가</em>를 합니다. 그리고 <em id="podcast">팟캐스트</em>와 <em id="music">스파티파이</em>를 듣습니다. SNS는 잘 사용하지 않고 글 쓰는 연습을 하고 있습니다.</p>
 </section>
-<section class="text">
-  <h4 class="bold medium sectiontitle">now now now</h4>
-  <p class="large">2019-03, 현재 함께할 회사를 찾고 있습니다.</p>
+<section class="now text">
+  <h4 class="bold medium sectiontitle">now now now (201903)</h4>
+  <p class="large">오랫동안 함께할 회사를 찾고 있습니다.</p>
+  <p class="large">루비와 레일에 푹 빠져있습니다.</p>
 </section>
-<section>
+<section class="skills">
   <h4 class="bold medium sectiontitle">skill set</h4>
-  <p class="xlarge">HTML  Sass  ES6  React  Redux  Webpack Parcel Firebase Ruby Rails</p>
+  <p class="large">
+    {% for item in site.data.text.skills %}
+      <span class="skill">
+        {{ item.name }}
+      </span>
+    {% endfor %}
 </section>
 <section class="projects">
   <h4 class="bold medium sectiontitle">selected projects</h4>

@@ -4,15 +4,18 @@ title: blog
 ---
 {% include navigation.html foo='blog' %}
 
-<div>
+<div class="blog text">
   {% for post in site.categories.Blog  %}
     {% assign currentdate = post.date | date: "%B %Y" %}
     {% if currentdate != date %}
-    <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
+    <!-- <h3 class="post-month">{{ currentdate }}</h3> -->
     {% assign date = currentdate %}
     {% endif %}
-    <ul>
-      <li class="postlist hideList"><a href="{{ post.url }}"><span>{{ post.title }}</span><span>{{ post.date | date_to_string }}</span></a></li>
-    </ul>
-  {% endfor %}
+      <div class="postlist hideList">
+        <a href="{{ post.url }}">
+          <span class="post-title">{{ post.title }}</span>
+          <span class="post-date">{{ post.date | date_to_string }}</span>
+        </a>
+      </div>
+      {% endfor %}
   </div>

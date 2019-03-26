@@ -1,5 +1,5 @@
-title: Dahe Oh | Frontend developer and designer from Seoul
-email: hi@daheoh.com
+title: Dahe Oh | Frontend developer (also designer) from Seoul
+email: dahe.oh@gmail.com
 description: Dahe Oh is a frontend developer and multi disciplinary designer from Seoul.
 baseurl: "/"
 url: "https://daheoh.com"
@@ -10,6 +10,8 @@ google_analytics: UA-127168148-1
 markdown: kramdown
 # plugins:
 #   - jekyll-feed
+
+highlighter: rouge
 
 sass:
   sass_dir: _sass

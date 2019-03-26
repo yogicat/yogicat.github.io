@@ -39,9 +39,15 @@ body {
 
 a {
   color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+  text-decoration: none;
 }
 
+.post {
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: underline;
+  }
+}
 input:focus,
 select:focus,
 textarea:focus,
@@ -49,6 +55,9 @@ button:focus {
     outline: none;
 }
 
+p {
+  margin: 0;
+}
 
 
 .active {
@@ -74,6 +83,10 @@ button:focus {
 }
 
 
+.now, .skills, .projects, .links {
+  margin-top: 100px;
+}
+
 #Email {
   @extend .xlarge;
   border: 0;
@@ -87,7 +100,7 @@ button:focus {
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
+  // visibility: hidden;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -116,18 +129,13 @@ main {
 .intro {
   margin-top: 4rem;
 }
-.projects {
-  margin-top: 24rem;
-}
+
 .contact {
   margin-top: 14rem;;
 }
 .worklistgroup {
   margin: 0;
   padding: 0;
-}
-.links {
-  margin-top: 14rem;
 }
 
 .worklist {
@@ -157,6 +165,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   max-width: 65rem;
+  margin-bottom: 4rem;
 
   @extend .large;
 
@@ -165,6 +174,7 @@ nav {
     font-weight: 300;
     font-size: medium;
     position: relative;
+    text-decoration: none !important;
 
     &::after {
       content: '';
@@ -215,6 +225,7 @@ em {
     opacity: 0;
     transition: visibility 0s, opacity 0.5s ease;
   }
+
   &:hover::before {
     visibility: visible;
     opacity: 1;
@@ -261,6 +272,7 @@ em {
   font-size: 1.6rem;
   font-weight: 700;
   margin: 10px 0;
+  letter-spacing: 0.5px;
 }
 .bookauthor {
   margin: 0;
@@ -273,4 +285,58 @@ em {
   a {
     // display: flex;
   }
+}
+
+.blog {
+  margin-top: 100px;
+}
+
+.postlist {
+  position: relative;
+
+  &:hover::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    left: -12px;
+    top: 0px;
+  }
+
+  a {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.post-month {
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  margin: 20px 0 10px 0;
+}
+
+.post-title {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+
+.post-date {
+  color: grey;
+}
+
+.page-title {
+  margin-top: 100px;
+}
+
+.post {
+  line-height: 1.8;
+}
+
+.skill {
+  // font-size: 1.6rem;
+  // font-weight: bold;
+  margin-right: 1rem;
+  letter-spacing: 1px;
 }
