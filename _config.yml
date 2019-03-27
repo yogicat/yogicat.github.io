@@ -8,8 +8,8 @@ google_analytics: UA-127168148-1
 
 # Build settings
 markdown: kramdown
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 
 highlighter: rouge
 
@@ -37,11 +37,11 @@ defaults:
       layout: "default"
 
 
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
