@@ -1,0 +1,22 @@
+---
+label: Book
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: text
+  name: categories
+  label: categories
+- type: text
+  name: ratings
+  label: ratings
+- type: file
+  name: img
+  label: img
