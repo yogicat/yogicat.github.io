@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: book
+  path: post/book
   label: Book
   create: all
   match: "**/*"
