@@ -2,7 +2,7 @@
 layout: post
 title: "[번역]함수형 CSS 시작하기"
 categories: Blog
-comments: true
+comments: false
 
 ---
 **Tachyons을 알게 되었고, 사용하면서 알아보던 중 도움이 되는 좋은 글을 발견해서 저자의 동의하에 번역(능력에 따른 의역..)하였다. 원문에는 코드샌드박스 예제가 포함되어 있으니 꼭 함께 참고하길 바란다.**
