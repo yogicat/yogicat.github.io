@@ -3,19 +3,14 @@ layout: post
 title: "[번역]함수형 CSS 시작하기"
 categories: Blog
 comments: true
+
 ---
-
 **Tachyons을 알게 되었고, 사용하면서 알아보던 중 도움이 되는 좋은 글을 발견해서 저자의 동의하에 번역(능력에 따른 의역..)하였다. 원문에는 코드샌드박스 예제가 포함되어 있으니 꼭 함께 참고하길 바란다.**
-
-
 
 [https://rangle.io/blog/styling-with-functional-css/
 ](https://rangle.io/blog/styling-with-functional-css/)
 
-
----
-
-
+***
 
 개발 과정에서 스타일 작업을 무엇보다 싫어하는가? 스타일 작업할 때 몇 시간 동안 공들여 만들 스타일이 깨질까 봐 두려웠던 적이 있는가? 그런 두려움을 없애줄 함수형 CSS에 대해 알아보자.
 
@@ -31,40 +26,37 @@ Angular Material, Ionic, Bootstrap과 같은 라이브러리를 발견했을 때
 
 그렇다고 오해하지는 말자. 그런 컴포넌트 라이브러리는 제품과 상관없는 많은 작업을 처리하기 때문에, MVP작업을 할 때는 정말 훌륭하다. 하지만 MVP를 벗어난 다음에는? Bootstrap을 죄다 뜯어내고 커스텀 CSS로  대체할 수 있겠는가?
 
-
-
 **NOPE.**
-
-
 
 함수형 CSS는 스타일 문제에 대해 완전히 새로운 시각을 제시한다. 앱이 멋지게 보이기를 원하지만, 다음 3주를 div를 중앙 정렬하는데 다 보내고 싶진 않다. (나만 div를 중앙 정렬하는데 매달렸나?)
 
----
+***
 
 ## 함수형 CSS가 도대체 무엇인가?
 
 함수형 (functional)의 의미는 다음과 같다.
 
->**특별한 활동, 목적 또는 업무를 수행하거나 가지고 있는 것 - 무언가가 작동하는 방식과 연관돼서.**
-
+> **특별한 활동, 목적 또는 업무를 수행하거나 가지고 있는 것 - 무언가가 작동하는 방식과 연관돼서.**
 
 함수는 한 가지 작업을 수행해야 하며 동일한 입력이 주어지면 동일한 아웃풋을 생성해야 한다.
 
-*매번!*
+_매번!_
 
 CSS에서는, 클래스는 하나의 효과를 적용하고, 매번 동일한 효과를 내야 한다. 따라서 결과적으로 여러분의 CSS는 많은 시각적 효과를 위해 여러 가지의 굉장히 작은 부분들로 구성됩니다.
 
 함수형 CSS 예제를 위해, Trello의 카피 본인 Frello를 만들었다. 여기서는 전통적인 방식의 CSS와 함수형 CSS의 두 가지 브랜치를 만들었다.
 
+![](/uploads/functional-css-00.png)
 
 [Frello 라이브 사이트](https://kind-jennings-937a86.netlify.com/)
 
 [소스코드](https://github.com/hnipps/frello)
 
-
 여기 두 가지 방법으로 스타일 된 카드 프레젠테이션 컴포넌트가 있다. 전통적인 방식과, 함수형 방식을 살펴보면 보는 즉시 차이점을 알아차릴 수 있을 것이다.
 
 https://codesandbox.io/embed/4jpvpk3l2x
+
+![](/uploads/functional-css-01.png)
 
 왼쪽이 전형적인 방식의 CSS, 오른쪽이 함수형 CSS
 
@@ -73,25 +65,23 @@ https://codesandbox.io/embed/4jpvpk3l2x
 여기서 두 번째 컴포넌트를 생성한다고 해보자.
 (샌드박스 링크를 따라가면 프로젝트를 볼 수 있다. https://codesandbox.io/embed/qry5zmyq6)
 
+![](/uploads/functional-css-02.png)
 
 기본 CSS에서는 첫 번째 컴포넌트가 두 번째 컴포넌트가 많은 부분 중복되는 것을 알 수 있다. 하지만 함수형 CSS에서는 여러 개의 클래스들을 재사용할 수 있다.
 
-
-
-- flex
-- items
-- center
-- dark-gray
-- helvetica
-- w5
-- ph2
-- bn
-- bg-transparent
-
+* flex
+* items
+* center
+* dark-gray
+* helvetica
+* w5
+* ph2
+* bn
+* bg-transparent
 
 이게 완전한 목록은 아니다. 여기에는 재사용이 많이 이뤄지고 있고, 이게 두 개의 컴포넌트를 만드는 게 이 정도라면 전체 애플리케이션에서는 얼마나 많은 양의 재사용이 일어날지 상상해 보기 바란다.
 
----
+***
 
 ## 해결사, Tachyon
 
@@ -103,27 +93,22 @@ https://codesandbox.io/embed/4jpvpk3l2x
 
 Tachyon이 일의 속도를 높이는데 얼마나 효과적이었는지 보여주기 위해 위에 설명한 Frello앱의 각 부분에서 얼마나 시간을 할애했는지 측정해 보았다.
 
-
-
-- 앱 기능 구축
-- 스타일링
-  - 전형적인 CSS
-  - 함수형 CSS (여기서는 Tachyon을 사용)
-
+* 앱 기능 구축
+* 스타일링
+  * 전형적인 CSS
+  * 함수형 CSS (여기서는 Tachyon을 사용)
 
 결과는 다음과 같다.
 
-- 앱 기능 : 3시간 10분
-- 전형적인 CSS 스타일링 : 3시간 44분
-- 함수형 CSS 스타일링 : 1시간 59분
-
-
+* 앱 기능 : 3시간 10분
+* 전형적인 CSS 스타일링 : 3시간 44분
+* 함수형 CSS 스타일링 : 1시간 59분
 
 전형적인 CSS방식이 가장 오랜 시간이 걸렸다. 심지어 앱의 기능을 구축하는 것보다 더 오래 걸렸다.
 아마도 기본 CSS를 작성하는 나의 능력에 대한 결과일지 모르겠지만, 하지만 어쨌든 함수형 CSS가 훨씬 더 빨랐다는 점은 분명하다.
 Tachyons 클래스들을 컴포넌트에 작성하는 시간보다 전형적인 CSS를 작성하는데 거의 2배 가까운 시간이 들었다. 여기서 눈여겨보아야 할 차이점은 Tachyons를 사용하면 CSS를 많이 작성할 필요가 없다는 것이다. 처음부터 모든 함수형 CSS 클래스들을 직접 작성해야 한다면, 훨씬 더 많은 시간이 소요됐을 것이다.
 
----
+***
 
 ## 왜 중요한가?
 
@@ -131,16 +116,18 @@ Tachyons 클래스들을 컴포넌트에 작성하는 시간보다 전형적인 
 
 라이브러리의 클래스만 유용한 것이 아니다. Tachyons가 가지고 있는 기본 디자인 원리(Fundamental design principle) 자체가 굉장히 유용하다. 모든 Tachyons의 간격과 사이즈 클래스들은 스케일에 비례한다.
 
+![](/uploads/functional-css-03.png)
+
 정확히 말하자면, Tachyons는 모든 크기와 간격에 대해 'rem'을 사용하여 앱의 루트 폰트 크기에 영향을 받는다. (relative)
 
 예를 들어, 기본 루트 폰트 값이 16px이라고 한다면(바꾸지 않는 한) 4를 기반으로 한 스케일 시스템을 가지게 된다. 모든 간격과 사이즈는 4의 배수로 이루어진다.
 
 애플과 구글은 이미 제품에 4를 기반으로 한 스케일 시스템(4-based scale system)을 사용하고 있고, 역시 디자인에 대해 뭘 좀 아는 거 같다.
 
+> 
 
->
-  일관된 간격 스케일을 사용하면 레이아웃을 보다 예측 가능하게 하고,  더 잘 맞고(fit), 더 잘 정렬됨으로써 비율을 통한 유지 관리성을 높일 수 있다.<br>
-  **Jina Anne, DesignBetter.Co**
+일관된 간격 스케일을 사용하면 레이아웃을 보다 예측 가능하게 하고,  더 잘 맞고(fit), 더 잘 정렬됨으로써 비율을 통한 유지 관리성을 높일 수 있다.<br>
+**Jina Anne, DesignBetter.Co**
 
 디자인과 레이아웃에 리듬과 밸런스를 주기 때문에 매우 중요한 부분이다.
 
@@ -152,12 +139,9 @@ Tachyons의 타이포 스케일 시스템
 
 함수형 CSS를 사용하면 단일 파일 안에서 모든 것을 해결할 수 있다. 위에서 설명한 것처럼 퀄리티 있는 아웃풋을 유지하면서도 컴포넌트 만드는데 들어가는 시간을 크게 단축할 수 있다.
 
-
----
-
+***
 
 ## Tachyons Schmachyons
-
 
 그런데 함수형 CSS는 스케일이 안되잖아.. 앱에서 특정 버튼을 전체적으로 업데이트하고 싶으면, 모든 버튼에 클래스를 바꿔야 되잖아!!
 
@@ -179,12 +163,11 @@ Tachyons는 커스터마이징이 가능하고, tachyons-generator를 사용해 
 
 이외에도 다른 함수형 CSS 라이브러리들도 많이 있고 몇몇은 커스터마이징이 가능하니 살펴보기 바란다.
 
-- Tailwind
-- Basscss
-- BuzzFeed's Solid
+* Tailwind
+* Basscss
+* BuzzFeed's Solid
 
-
----
+***
 
 ## 함수형 CSS의 세계로!
 
@@ -194,14 +177,9 @@ Tachyons는 커스터마이징이 가능하고, tachyons-generator를 사용해 
 
 Tachyons이나 다른 함수형 CSS 라이브러리를 통해 스타일링을 단순화하자.
 
-
-
----
-
-
+***
 
 주요 링크
 
-- [Tachyons 공식 사이트](https://tachyons.io/)
-
-- [Tachyons TLDR](https://tachyons-tldr.now.sh/)
+* [Tachyons 공식 사이트](https://tachyons.io/)
+* [Tachyons TLDR](https://tachyons-tldr.now.sh/)
