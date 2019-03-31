@@ -1,6 +1,8 @@
-<nav>
+<nav class="mb5">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if item.page == include.foo  %}class="active"{% endif %}>
+    <a
+      class="link no-underline black hover-yellow pv2 mr4 f4"
+      href="{{ item.link }}" {% if item.page == include.foo  %}class="active"{% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}

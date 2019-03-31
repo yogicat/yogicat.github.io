@@ -4,46 +4,45 @@ title: home
 ---
 {% include navigation.html foo='home'%}
 
-<section class="intro text">
-  <p class="xlarge">서울에서 활동하는 프론트엔드 개발자 <em id="me">오다혜</em>입니다. 디자인을 전공하고 인테리어, 건축, UX, UI 디자인에 이르기까지 다양한 디자인 분야에서 일한 경험이 있으며, 기술에 대한 열정과 갈증으로 현재는 프론트엔드 개발자로써의 새로운 삶을 살고있습니다.
-  대부분 시간을 코딩을 하지만, 가끔씩 <em id="design">디자인</em>을 하기도 합니다. 틈날때마다  <em id="book">책</em>을 읽고 <em id="yoga">요가</em>를 합니다. 그리고 <em id="podcast">팟캐스트</em>와 <em id="music">스파티파이</em>를 듣습니다. SNS는 잘 사용하지 않고 글 쓰는 연습을 하고 있습니다.</p>
+<section>
+  <p class="f1-ns f3 fw2 lh-copy">프론트엔드 개발자 오다혜입니다. <br>디자인을 전공하고 인테리어, 건축, UX, UI 디자인에 이르기까지 다양한 디자인 분야에서 일을 하다가 기술에 대한 열정과 갈증으로 현재는 개발자로써 의미있는 것들을 아름답게 만드는것을 좋아합니다.</p>
 </section>
-<section class="now text">
-  <h4 class="bold medium sectiontitle">now now now (201903)</h4>
-  <p class="large">오랫동안 함께할 회사를 찾고 있습니다.</p>
-  <p class="large">루비와 레일에 푹 빠져있습니다.</p>
+<section class="mt7">
+  <h4 class="f5 fw6">최근 소식 - 201903</h4>
+  <ul class="f3 fw2 list pl0">
+    <li class="pv2">루비와 레일즈 공부에 푹 빠져있습니다.</li>
+  </ul>
 </section>
-<section class="skills">
-  <h4 class="bold medium sectiontitle">skill set</h4>
-  <p class="large">
+<section class="mt5">
+  <h4 class="f5 fw6">스킬들</h4>
+  <div class="f3 fw2">
     {% for item in site.data.text.skills %}
-      <span class="skill">
+      <span class="ph1">
         {{ item.name }}
       </span>
     {% endfor %}
-</section>
-<section class="projects">
-  <h4 class="bold medium sectiontitle">selected projects</h4>
-  <ul class="worklistgroup">
-    <li class="worklist hideList xlarge">Commitit! <span>Web design and development</span></li>
-    <li class="worklist hideList xlarge">Commitit! <span>Web design and development</span></li>
-    <li class="worklist hideList xlarge">Commitit! <span>Web design and development</span></li>
-    <li class="worklist hideList xlarge">Commitit! <span>Web design and development</span></li>
-  </ul>
-</section>
-<section class="links">
-  <h4 class="bold medium sectiontitle">links</h4>
-  <ul class="worklistgroup">
-    <li class="worklist hideList xlarge">Github</li>
-    <li class="worklist hideList xlarge">Linkdin</li>
-    <li class="worklist hideList xlarge">Behance</li>
-  </ul>
-</section>
-<section class="contact">
-  <span class="xlarge">함께 일해요.</span>
-  <div class="tooltip">
-    <span class="tooltiptext" id="myTooltip">클릭해서 주소 복사!</span>
-    <input type="text" id="Email" class="bold" value="hi@daheoh.com" readonly>
   </div>
+</section>
+<section class="mt5">
+  <h4 class="f5 fw6">토이 트로젝트</h4>
+  <ul class="f3 fw2 list pl0">
+    <li class="pv2">Typed.dev <span>텍스트 기반의 심플한 웹페이지 생성기</span></li>
+    <li class="pv2">Shoutout  <span>레일즈로 개발한 레딧 클론앱</span></li>
+    <li class="pv2">QOTD <span>오늘의 명언 제너레이터</span></li>
+  </ul>
+</section>
+<section class="mt5">
+  <h4 class="f5 fw6">관련 링크</h4>
+  <ul class="f3 fw2 list pl0">
+    {% for item in site.data.text.links %}
+    <li><a class="link black no-underline hover-yellow db pv2" href={{item.link}} target="_blank">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+<section class="mt5">
+  <h4 class="f5 fw6">이메일</h4>
+  <p class="f2 fw2">
+    hi@yogicat.dev
+  </p>
 </section>
 <script src="/assets/js/script.js"></script>

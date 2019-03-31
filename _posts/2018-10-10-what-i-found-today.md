@@ -1,19 +1,19 @@
 ---
-title: " What I read and found today"
+title: 읽을까 말까 고민하다 읽기, 저스트 키즈
 layout: post
 date: 2018-10-10
 categories: Blog
 
 ---
 
-Since last night I started to read [Just Kids](https://amzn.to/2A1R9He "Just Kids") written by Patti Smith. I didn't know who she was until today. I heard [Seth Godin](https://en.wikipedia.org/wiki/Seth_Godin "Seth Godin") highly recommended this book from some podcast episode. It was on my kindle for a while and finally able to read thanks to the sleepless night.
 
-I found myself deeply engaged with her childhood story as if I were with her all along. I love her way of expressing her feelings, how she explains the atmosphere, nature and even tiny little details.
+어제밤부터 패티스미스의 [Just Kids](https://amzn.to/2A1R9He "Just Kids")를 읽고 있다.
 
-It has been a while since I met such a book that couldn't wait to read more.
+늘 아마존 장바구니에 담아두고 선뜻 읽을 마음이 생기지 않았는데, 어쩌다 읽기 시작했고, 순식간에 빨려들어 가는 기분이 들었다. 패티 스미스가 유명한 뮤지션이라고는 하지만, 난 거의 뭐 이름만 알까말까 한 정도여서 공감가는 내용이 없을까봐 걱정했는데, 마치 한편의 영화를 보는 것 같았아.
 
-***
+나는 글을 평가할 수 있는 수준의 지식?도 없지만, 정말 섬세하고 잘쓴 문장이란 글이라는 느낌을 받았다.
 
-I met this [cool list ](https://nomoregoogle.com/ "no more google")from [product hunt](https://www.producthunt.com/ "Product hunt"). It's called **No More Google,** listing the alternatives to google.
+가끔 어떤 책들을 읽으면 그런 때,
+나는 분명 책을 읽었는데, 영화를 본거 같이 머릿속에서 영상이 틀어지는 그런 책,
+딱 그런 책이었다.
 
-Recently Google said that it would shut down Google Plus after it discovered a security vulnerability that exposed the private data.

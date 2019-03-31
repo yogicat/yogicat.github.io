@@ -22,3 +22,17 @@
 }
 
 
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin media-larger-than($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}

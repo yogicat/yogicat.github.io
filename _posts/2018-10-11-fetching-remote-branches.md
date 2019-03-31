@@ -1,5 +1,5 @@
 ---
-title: "Git: fetching all remote branches"
+title: "깃을 정복하자🚩"
 layout: post
 date: 2018-10-11
 categories: Blog

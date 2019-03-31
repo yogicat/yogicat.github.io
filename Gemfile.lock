@@ -249,6 +249,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
+  minima
   uglifier
 
 BUNDLED WITH

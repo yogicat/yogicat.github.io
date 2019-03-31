@@ -4,18 +4,16 @@ title: blog
 ---
 {% include navigation.html foo='blog' %}
 
-<div class="blog text">
+<div class="flex flex-column justify-between w-100">
   {% for post in site.categories.Blog  %}
-    {% assign currentdate = post.date | date: "%B %Y" %}
+    {% assign currentdate = post.date | date: "%Y - %m" %}
     {% if currentdate != date %}
-    <!-- <h3 class="post-month">{{ currentdate }}</h3> -->
+    <!-- <h3 class="fw2 f2">{{ currentdate }}</h3> -->
     {% assign date = currentdate %}
     {% endif %}
-      <div class="postlist hideList">
-        <a href="{{ post.url }}">
-          <span class="post-title">{{ post.title }}</span>
-          <span class="post-date">{{ post.date | date_to_string }}</span>
-        </a>
-      </div>
+      <a href="{{ post.url }}" class="link black hover-orange pv2 f4 fw2 flex justify-between">
+        <span class="post-title">{{ post.title | truncate: 30, '..' }}</span>
+        <span class="f7 tr">{{ post.date | date: "%Y.%m.%d" }}</span>
+      </a>
       {% endfor %}
   </div>

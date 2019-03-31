@@ -1,16 +1,13 @@
 ---
-title: "Networking-unit1"
+title: "네트워킹에 대해 노트정리"
 layout: post
 date: 2018-10-22
 categories: Blog
 ---
 
-Started to take an online course about networking. I am really grateful that I have free access to those remarkable resources. For all those entry level developers who suffer from imposter syndrome, including myself, I highly recommend watching more MOOC series(edx, coursera, and youtube) it's a perfect cure for our fear of the unknown!
-
----
 
 
-## The Internet and IP
+**The Internet and IP**
 
 ## Network Applications
 * Read and write data over network
@@ -106,8 +103,3 @@ Started to take an online course about networking. I am really grateful that I h
 
 ### Application Layer
 * Bi-directional reliable byte stream between two applications, using application-specific semantics(e.g. http, bit-torrent)
-
----
-
-
-...to be continued...

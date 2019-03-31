@@ -4,20 +4,18 @@ title: book
 ---
 {% include navigation.html foo='book' %}
 
-<p class="desc">책을 읽고 기록합니다. 읽은 순서대로 정렬되어 있습니다.</p>
+<p class="fw2">책을 읽고 기록합니다.(가장 최근 읽은 것들 순서대로)
 
-<ul class="booklistgroup hideList">
+<ul class="list pl0 flex flex-wrap justify-around items-center">
   {% for post in site.categories.book %}
-  <li class="booklist hideList">
-    <a class="item" href="{{ post.url }}">
-      <picture style='flex:none; align-self: center;'>
-        <img src="{{ post.img }}" alt="{{ post.title }}">
-      </picture>
-      <div class="booktexts">
-        <p class="booktitle">{{ post.title }}</p>
-        <p class="bookauthor">{{ post.author }}</p>
-        <p style="margin-top: 5px">{{ post.rating }}</p>
-      </div>
+  <li class="w-50 w-33-m w-20-l pa4">
+    <a class="db link dim center" href="{{ post.url }}">
+        <img class="w-100 db outline black-10 book" src="{{ post.img }}" alt="{{ post.title }}">
+      <dl class="mt2 f6 lh-copy mt4">
+        <dt class="ml0 black f7">{{ post.title }}</dt>
+        <dt class="ml0 gray truncate f7">{{ post.author }}</dt>
+        <!-- <dt class="ml0">{{ post.rating }}</dt> -->
+      </dl>
     </a>
     </a>
   </li>

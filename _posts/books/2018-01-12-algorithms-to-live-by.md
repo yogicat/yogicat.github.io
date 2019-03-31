@@ -4,11 +4,10 @@ title:  "Algorithms to Live By"
 author: "Brian Christian, Tom Griffiths"
 categories: book
 img: "https://images-na.ssl-images-amazon.com/images/I/41UiFPQfFbL._SX326_BO1,204,203,200_.jpg"
-ratings: ★★★★★
+rating: ★★★★★
 ---
 
-[![book cover](https://images-na.ssl-images-amazon.com/images/I/41UiFPQfFbL._SX326_BO1,204,203,200_.jpg)](https://amzn.to/2PJ3g4T)
-{: .book-cover}
+
 
 I discovered this book from one podcast long long time ago.(maybe from Hidden Brain?)
 It helped me with understanding fundamental of CS and gave me the courage and insights towards the unknown future of myself.

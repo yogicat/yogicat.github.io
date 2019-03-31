@@ -2,14 +2,20 @@ title: Dahe Oh | Frontend developer (also designer) from Seoul
 email: dahe.oh@gmail.com
 description: Dahe Oh is a frontend developer and multi disciplinary designer from Seoul.
 baseurl: "/"
-url: "https://daheoh.com"
+url: "https://yogicat.dev"
 github_usename: yogicat
 google_analytics: UA-127168148-1
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+
+theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 highlighter: rouge
 

@@ -1,7 +1,10 @@
 links:
-  - Github: "https://github.com/yogicat"
-  - LinkedIn: "https://linkedin.com"
-  - Instagram: "https://instagram.com/ohdayoda"
+  - name: Github
+    link: "https://github.com/yogicat"
+  - name: LinkedIn
+    link: "https://linkedin.com"
+  - name: Instagram
+    link: "https://instagram.com/ohdayoda"
 
 skills:
   - name: ES2015
@@ -11,5 +14,13 @@ skills:
   - name: Webpack
   - name: Parcel
   - name: Ruby
+  - name: Rails
   - name: Git
+
+secondary:
+  - name: Adobe CC
+  - name: Sketch
+  - name: Framer
+  - name: Rhino
+  - name: Cinema4D
 
