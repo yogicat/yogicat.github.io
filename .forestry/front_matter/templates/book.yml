@@ -20,3 +20,5 @@ fields:
 - type: file
   name: img
   label: img
+pages:
+- _posts/books/2018-10-08-the-best-interface-is-no-interface.md

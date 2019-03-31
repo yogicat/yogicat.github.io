@@ -7,7 +7,6 @@ img: https://images-na.ssl-images-amazon.com/images/I/31GWQcVx1KL._SX331_BO1,204
 ratings: "★★★"
 
 ---
-
 ### highlights
 
 After all, as Edward Tufte once said, **"Overload, clutter, and confusion are not attributes of information, they are failures of design."**
