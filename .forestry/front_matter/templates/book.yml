@@ -21,4 +21,5 @@ fields:
   name: img
   label: img
 pages:
+- _posts/books/2016-11-01-mary-oliver.md
 - _posts/books/2018-10-08-the-best-interface-is-no-interface.md
