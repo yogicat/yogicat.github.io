@@ -15,8 +15,8 @@ fields:
   name: categories
   label: categories
 - type: text
-  name: ratings
-  label: ratings
+  name: rating
+  label: rating
 - type: file
   name: img
   label: img
