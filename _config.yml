@@ -10,38 +10,30 @@ google_analytics: UA-127168148-1
 markdown: kramdown
 highlighter: rouge
 
-
-theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 
 highlighter: rouge
+
+permalink: /:year/:month/:title.html
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 4
+  permalink: '/page/:num/'
+  title: title
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 5
+    after: 5
 
 sass:
   sass_dir: _sass
   style: compressed
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "book"
-    values:
-      layout: "book"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-
 
 exclude:
   - Gemfile

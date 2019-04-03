@@ -1,13 +1,7 @@
-- name: 오다혜
+- name: 처음으로
   link: /
-  url: /
-  page: home
 - name: 책
   link: /book
-  url: /book.html
-  page: book
 - name: 블로그
   link: /blog
-  url: /blog.html
-  page: blog
 

@@ -1,13 +1,15 @@
-const Email = document.getElementById('Email')
+const Introduction = document.getElementById('introduction')
+const clickables = document.querySelectorAll('.clickable')
 
-Email.addEventListener('click', () => {
-  const Tooltip = document.getElementById('myTooltip');
-  Email.select();
-  document.execCommand("copy");
-  Tooltip.innerText = "복사되었습니다";
-})
 
-Email.addEventListener('mouseout', () => {
-  const Tooltip = document.getElementById('myTooltip');
-  Tooltip.innerText = "클릭해서 주소 복사";
+function handleClick(e) {
+  let child = e.target.querySelector('img')
+  child.classList.toggle('isShow')
+}
+
+clickables.forEach(item => {
+  item.addEventListener('click', handleClick)
+  item.addEventListener('touchstart', handleClick)
+  item.addEventListener('mouseover', handleClick)
+  item.addEventListener('mouseleave', handleClick)
 })

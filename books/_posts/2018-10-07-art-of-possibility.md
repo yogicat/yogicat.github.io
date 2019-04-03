@@ -9,13 +9,6 @@ ratings: ★★★★★
 
 
 
-I highly recommend that you read this book with audio book!
-The audio book is read by the original authors and since the book has a lot of music references, listening audio book helped me understand the situation more clearly.
-
----
-
-### highlights
-
 The frames sour minds create define-and confine- what we perceive to be possible.
 Enlarge the box, or create another frame around the data, and problems vanish, while new opportunities appear.
 

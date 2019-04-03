@@ -2,15 +2,21 @@
 layout: default
 title: home
 ---
-{% include navigation.html foo='home'%}
 
+{% include navigation.html foo='home'%}
 <section>
-  <p class="f1-ns f3 fw2 lh-copy">프론트엔드 개발자 오다혜입니다. <br>디자인을 전공하고 인테리어, 건축, UX, UI 디자인에 이르기까지 다양한 디자인 분야에서 일을 하다가 기술에 대한 열정과 갈증으로 현재는 개발자로써 의미있는 것들을 아름답게 만드는것을 좋아합니다.</p>
+  <p class="f1-ns f3 fw2 lh-copy" id="introduction">
+    프론트엔드 개발자 <strong>오다혜</strong>입니다.<br>
+    인테리어, 건축, UX, UI 디자인에 이르기까지 다양한 디자인 경험을 가지고
+    현재는 개발자로써 웹을 아름답게 만드는 일을 즐깁니다.
+  </p>
+
+  <p class="dark-green">✋ open for full-time job</p>
 </section>
 <section class="mt7">
-  <h4 class="f5 fw6">최근 소식 - 201903</h4>
+  <h4 class="f5 fw6">최근 소식 - 201904</h4>
   <ul class="f3 fw2 list pl0">
-    <li class="pv2">루비와 레일즈 공부에 푹 빠져있습니다.</li>
+    <li class="pv2">Node로 이것저것 만들기에 푹 빠졌습니다.</li>
   </ul>
 </section>
 <section class="mt5">
@@ -23,14 +29,14 @@ title: home
     {% endfor %}
   </div>
 </section>
-<!-- <section class="mt5">
+<section class="mt5">
   <h4 class="f5 fw6">토이 트로젝트</h4>
   <ul class="f3 fw2 list pl0">
-    <li class="pv2">Typed.dev <span>텍스트 기반의 심플한 웹페이지 생성기</span></li>
-    <li class="pv2">Shoutout  <span>레일즈로 개발한 레딧 클론앱</span></li>
-    <li class="pv2">QOTD <span>오늘의 명언 제너레이터</span></li>
+    <li class="pv2">Typed<span>텍스트 기반의 웹페이지 생성기</span></li>
+    <li class="pv2">One Paragraph Journal<span>node로 개발한, 커맨드라인 한줄일기 앱</span></li>
+    <li class="pv2">QOTD<span>오늘의 명언 제너레이터</span></li>
   </ul>
-</section> -->
+</section>
 <section class="mt5">
   <h4 class="f5 fw6">관련 링크</h4>
   <ul class="f3 fw2 list pl0">
@@ -45,4 +51,4 @@ title: home
     hi@yogicat.dev
   </p>
 </section>
-<script src="/assets/js/script.js"></script>
+<!-- <script defer src="/assets/js/script.js"></script> -->

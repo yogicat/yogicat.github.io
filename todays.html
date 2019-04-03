@@ -1,0 +1,33 @@
+---
+layout: default
+title: todays
+---
+
+{% include navigation.html foo='blog' %}
+<div>
+  <div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th><span class="sort" data-sort="name">date</span></th>
+        <th><span class="sort" data-sort="city">today</span></th>
+        <th><span class="sort" data-sort="category">link</span></th>
+      </tr>
+    </thead>
+    <tbody class="list">
+    {% for post in site.categories.todays %}
+      <tr>
+        <td class="name">{{ post.date | date: "%Y.%m.%d" }}</td>
+        {% if post.link %}
+         <td class="link"><a href={{ post.link }} target="_blank">{{ post.text }}</a></td>
+        {% else %}
+        <td class="city">{{ post.text }}</td>
+        <td class="city">??{{ post.content }}</td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+  </div>

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "[번역]함수형 CSS 시작하기"
+title: "함수형 CSS 시작하기"
 categories: Blog
 comments: false
-
+tag: programming
 ---
+
 **Tachyons을 알게 되었고, 사용하면서 알아보던 중 도움이 되는 좋은 글을 발견해서 저자의 동의하에 번역(능력에 따른 의역..)하였다. 원문에는 코드샌드박스 예제가 포함되어 있으니 꼭 함께 참고하길 바란다.**
 
 [https://rangle.io/blog/styling-with-functional-css/
@@ -124,7 +125,7 @@ Tachyons 클래스들을 컴포넌트에 작성하는 시간보다 전형적인 
 
 애플과 구글은 이미 제품에 4를 기반으로 한 스케일 시스템(4-based scale system)을 사용하고 있고, 역시 디자인에 대해 뭘 좀 아는 거 같다.
 
-> 
+>
 
 일관된 간격 스케일을 사용하면 레이아웃을 보다 예측 가능하게 하고,  더 잘 맞고(fit), 더 잘 정렬됨으로써 비율을 통한 유지 관리성을 높일 수 있다.<br>
 **Jina Anne, DesignBetter.Co**

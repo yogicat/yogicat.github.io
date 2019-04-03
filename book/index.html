@@ -1,20 +1,24 @@
 ---
 layout: default
 title: book
+pagination:
+  enabled: true
+  categories: Book
+  per_page: 30
 ---
 {% include navigation.html foo='book' %}
 
-<p class="fw2">책을 읽고 기록합니다.(가장 최근 읽은 것들 순서대로)</p>
+<p class="fw2">책을 읽고 기록합니다.</p>
 
 <ul class="list pl0 flex flex-wrap justify-around items-center">
-  {% for post in site.categories.book %}
+  {% for post in paginator.posts %}
   <li class="w-50 w-33-m w-20-l pa4">
     <a class="db link dim center" href="{{ post.url }}">
-        <img class="w-100 db outline black-10 book" src="{{ post.img }}" alt="{{ post.title }}">
+        <img class="w-100 db outline black-10 book bg-black" src="{{ post.img }}" alt="{{ post.title }}">
       <dl class="mt2 f6 lh-copy mt4">
         <dt class="ml0 black f7">{{ post.title }}</dt>
         <dt class="ml0 gray truncate f7">{{ post.author }}</dt>
-        <!-- <dt class="ml0">{{ post.rating }}</dt> -->
+        <dt class="ml0 black">{{ post.rating }}</dt>
       </dl>
     </a>
     </a>

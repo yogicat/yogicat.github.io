@@ -1,8 +1,9 @@
 ---
-title: "DOM조작을 알아보자"
+title: "DOM조작 101"
 layout: post
 date: 2018-10-20
 categories: Blog
+tag: programming
 ---
 
 

@@ -1,9 +1,14 @@
 <nav class="mb5">
   {% for item in site.data.navigation %}
-    <a
-      class="link no-underline black hover-yellow pv2 mr4 f4"
-      href="{{ item.link }}" {% if item.page == include.foo  %}class="active"{% endif %}>
+    <a class="link no-underline black hover-yellow pv2 mr4 f4" href="{{ item.link }}" {% if item.page==include.foo %}class="active"
+      {% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}
+
+  <!-- {% for my_page in site.pages %}
+  {% if my_page.title and my_page.autogen == nil %}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {% endif %}
+  {% endfor %} -->
 </nav>

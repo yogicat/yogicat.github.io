@@ -8,11 +8,8 @@ ratings: ★★★
 ---
 
 
-[![go to amazon](https://images-na.ssl-images-amazon.com/images/I/41yWMZy60VL._SX331_BO1,204,203,200_.jpg)](https://www.amazon.com/Think-Like-Great-Graphic-Designer/dp/1581154968/ref=sr_1_1?s=books&ie=UTF8&qid=1540123895&sr=1-1&keywords=9781581154962&dpID=41yWMZy60VL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch)
-{: .book-cover}
 
 
-How to think like a great graphic designer / 위대한 그래픽 디자이너의 사유, 데미 밀만
 
 해외 여러 팟캐스트를 통해 알게된 책으로, 국내에는 절판되어 출판사에 직접 요청해서 구입한 의미있는 책이었다. 스무명 정도의 역향력있는 디자이너들의 인터뷰를 엮은 책으로, 흔히 볼 수 있는 성공담이 아닌 인간으로써 느끼는 부분들이 깊이 있게 담겨있어서 너무 좋았다. 그들도 여러가지 단점들과 후회들 속에서 끊임없이 노력하는 나와 비슷한 인간임을 엿볼 수 있었다.
 

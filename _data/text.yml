@@ -2,7 +2,7 @@ links:
   - name: Github
     link: "https://github.com/yogicat"
   - name: LinkedIn
-    link: "https://linkedin.com"
+    link: "https://www.linkedin.com/in/dahe-oh-019b02151/"
   - name: Instagram
     link: "https://instagram.com/ohdayoda"
 
@@ -12,10 +12,9 @@ skills:
   - name: Redux
   - name: Sass
   - name: Webpack
-  - name: Parcel
-  - name: Ruby
-  - name: Rails
+  - name: Node
   - name: Git
+  - name: Rail
 
 secondary:
   - name: Adobe CC
