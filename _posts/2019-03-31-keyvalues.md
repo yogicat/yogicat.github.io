@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "오늘 들은 팟캐스트, IndieHackers"
-categories: Blog
+categories: blog
 tag: recommend
 ---
 

@@ -2,7 +2,7 @@
 title: "GIT 명령어🚩"
 layout: post
 date: 2018-10-11
-categories: Blog
+categories: blog
 tag: programming
 ---
 

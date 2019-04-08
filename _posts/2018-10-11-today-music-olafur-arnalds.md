@@ -2,7 +2,7 @@
 title: 오늘 들은 음악 Olafur Arnalds
 layout: post
 date: 2018-10-11
-categories: Blog
+categories: blog
 tag: recommend
 
 ---

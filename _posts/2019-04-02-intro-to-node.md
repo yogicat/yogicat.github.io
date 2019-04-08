@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Node.js 기본개념"
-categories: Blog
+categories: blog
 tag: programming
 ---
 

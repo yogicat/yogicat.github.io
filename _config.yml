@@ -13,23 +13,23 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  # - jekyll-paginate-v2
 
 highlighter: rouge
 
 permalink: /:year/:month/:title.html
 # Pagination Settings
-pagination:
-  enabled: true
-  per_page: 4
-  permalink: '/page/:num/'
-  title: title
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 5
-    after: 5
+# pagination:
+#   enabled: true
+#   per_page: 4
+#   permalink: '/page/:num/'
+#   title: title
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+#   trail:
+#     before: 5
+#     after: 5
 
 sass:
   sass_dir: _sass

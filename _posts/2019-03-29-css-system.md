@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "함수형 CSS 시작하기"
-categories: Blog
+categories: blog
 comments: false
 tag: programming
 ---

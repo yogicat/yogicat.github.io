@@ -2,7 +2,7 @@
 title: "DOM조작 101"
 layout: post
 date: 2018-10-20
-categories: Blog
+categories: blog
 tag: programming
 ---
 

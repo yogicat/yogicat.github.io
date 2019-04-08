@@ -2,7 +2,7 @@
 title: "네트워킹에 대해 노트정리"
 layout: post
 date: 2018-10-22
-categories: Blog
+categories: blog
 tag: programming
 ---
 

@@ -2,16 +2,12 @@
 layout: default
 title: blog
 permalink: /blog/
-pagination:
-  enabled: true
-  per_page: 100
-  categories: Blog
 ---
 
 {% include navigation.html foo='home'%}
 
 
-{% for post in paginator.posts %}
+{% for post in site.categories.blog %}
 
 {% assign currentdate = post.date | date: "%Y. %m" %}
   {% if currentdate != date %}
