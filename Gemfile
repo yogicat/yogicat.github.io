@@ -6,7 +6,9 @@ gem "jekyll"
 gem "uglifier"
 
 
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
+
+gem 'jekyll-compose', group: [:jekyll_plugins]
 
 # If you have any plugins, put them here!
 
@@ -20,3 +22,4 @@ end
 # bundle install
 # bundle exec jekyll serve
 # bundle update
+# bundle exec jekyll post (or draft) "my post"
