@@ -14,12 +14,6 @@ title: home
   <p class="dark-green">✋ open for full-time job</p>
 </section>
 <section class="mt7">
-  <h4 class="f5 fw6">최근 소식 - 201904</h4>
-  <ul class="f3 fw2 list pl0">
-    <li class="pv2">Node로 이것저것 만들기에 푹 빠졌습니다.</li>
-  </ul>
-</section>
-<section class="mt5">
   <h4 class="f5 fw6">스킬들</h4>
   <div class="f3 fw2">
     {% for item in site.data.text.skills %}
@@ -28,13 +22,26 @@ title: home
       </span>
     {% endfor %}
   </div>
+  <h4 class="f5 fw6">디자인툴</h4>
+  <div class="f3 fw2">
+    {% for item in site.data.text.secondary %}
+    <span class="ph1">
+      {{ item.name }}
+    </span>
+    {% endfor %}
+  </div>
 </section>
 <section class="mt5">
   <h4 class="f5 fw6">토이 트로젝트</h4>
   <ul class="f3 fw2 list pl0">
-    <li class="pv2">Typed<span>텍스트 기반의 웹페이지 생성기</span></li>
-    <li class="pv2">Air-cli<span>현재 원하는 위치의 미세먼지 검색 CLI앱</span></li>
-    <li class="pv2">TodayLibrary<span>매일 매일 추천 리스트</span></li>
+    {% for item in site.data.text.projects %}
+    <li>
+      <a class="link black no-underline hover-yellow db pv2" href={{item.link}} target="_blank">
+        {{ item.name }}
+        <span class="pl4">{{ item.desc }}</span>
+      </a>
+    </li>
+    {% endfor %}
   </ul>
 </section>
 <section class="mt5">

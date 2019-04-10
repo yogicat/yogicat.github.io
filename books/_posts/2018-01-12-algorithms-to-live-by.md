@@ -9,11 +9,6 @@ rating: ★★★★★
 
 
 
-I discovered this book from one podcast long long time ago.(maybe from Hidden Brain?)
-It helped me with understanding fundamental of CS and gave me the courage and insights towards the unknown future of myself.
-
----
-
 Exploration in itself has value, since trying new things increases our chances of finding the best. So taking the future into account, rather than focusing just on the present, drives us toward novelty.
 
 .

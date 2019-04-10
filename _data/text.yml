@@ -6,6 +6,15 @@ links:
   - name: Instagram
     link: "https://instagram.com/ohdayoda"
 
+projects:
+  - name: "💨 Air CLI"
+    desc: "원하는 위치의 현재 미세먼지 검색 커맨드라인 앱"
+    link: "https://github.com/yogicat/air-cli.git"
+  - name: "✍️ yodalist"
+    desc: "모든지 Rating"
+    link: "https://yodalist.fun"
+
+
 skills:
   - name: ES2015
   - name: React

@@ -1,17 +1,8 @@
 ---
 layout: post
-title: "Node.js 기본개념"
+title: "Intro to Node.js"
 categories: blog
 tag: programming
----
-
-맨날 해야하는? 귀찮은 일이 있는데 커맨드라인 앱을 만들어서 해결하고자 node를 공부하게 되었다.
-
-[frontendmasters](https://frontendmasters.com)에서 Node에 대한 기본 개념 코스를 들었다.
-생각보다 도움이 많이 되었고, 들으면서 적었던 것들을 정리하였다.
-듣고 나니까 리액트를 쓸때 webpack 설정 부분들이 어디서 튀어나온 것들인지 드디어 알 수 있었다.
-각종 프레임워크나 라이브러리들을 사용해 개발한다면, 노드에 대한 기본 개념은 꼭 알아두는게 좋은 것 같다.
-
 ---
 
 

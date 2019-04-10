@@ -1,6 +1,5 @@
 ---
 ---
-
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 @import "code",
 "fonts"
@@ -36,20 +35,19 @@ body {
  */
 pre,
 code {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Mono', Menlo, monospace;
   border: 1px solid rgb(207, 207, 207);
   border-radius: 3px;
-  background-color: #d4d4d433;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 code {
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.6rem;
 }
 
 pre {
   padding: 8px 12px;
-  overflow-x: scroll;
+  overflow-x: auto;
   max-width: 80rem;
 
   >code {
@@ -59,13 +57,6 @@ pre {
   }
 }
 
-
-h1,
-h2,
-h3 {
-  font-weight: 200;
-  margin: 2rem 0;
-}
 
 hr {
   margin: 6rem 50% 4rem 0 !important;
@@ -83,14 +74,21 @@ blockquote {
   li {
     line-height: 2;
   }
+
+  &.lh-copy {
+    line-height: 1.8 !important
+  }
+
+  a {
+    color: #00804d;
+    font-weight: 300;
+
+    &:hover {
+      color: #00b96f;
+    }
+  }
 }
 
 .book {
   box-shadow: 8px 8px 0px #a5a5a5;
-}
-
-.circle {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
 }
