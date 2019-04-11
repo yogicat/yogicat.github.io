@@ -75,6 +75,7 @@ blockquote {
     font-weight: 300;
     position: relative;
     text-decoration: none;
+    white-space: nowrap;
 
     &::before {
       content: '';
