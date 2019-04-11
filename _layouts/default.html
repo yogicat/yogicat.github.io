@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="/assets/css/tachyons.css"/>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="shortcut icon" type="image/png" href="/Favicon.png">
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
 <body class="sans-serif mw8 center pa2 pa4-ns lh-title mb4">
   <main class="min-vh-100">

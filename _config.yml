@@ -4,7 +4,7 @@ description: Yogicat is a frontend developer and multi disciplinary designer fro
 baseurl: "/"
 url: "https://yogicat.dev"
 github_usename: yogicat
-google_analytics: UA-127168148-1
+google_analytics: UA-138178661-1
 
 # Build settings
 markdown: kramdown
