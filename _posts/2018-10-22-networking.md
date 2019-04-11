@@ -10,7 +10,7 @@ tag: programming
 
 **The Internet and IP**
 
-## Network Applications
+### Network Applications
 * Read and write data over network
 * Dominant model: **bidirectional, reliable byte stream** connection
 	* one side reads what the other writes
@@ -50,7 +50,7 @@ tag: programming
 
 ---
 
-## Application Communication
+### Application Communication
 * Bidirectional, reliable byte stream
 	* Building lock of most applications today
 	* Other models exist and are used
@@ -62,7 +62,7 @@ tag: programming
 
 ---
 
-## 4 layer Internet Model
+### 4 layer Internet Model
 * Application
 * Transport
 * Network
@@ -75,6 +75,7 @@ tag: programming
 * carry a data over one link at a time
 * ethernet & wifi are two different link layers
 * delivers data over a single link between an end host and router, or between routers
+
 ---
 
 ### Network Layer
@@ -82,6 +83,8 @@ tag: programming
 * deliver packets **end-to-end** across the Internet from the source to the destination
 * network layer has a common way to talk to many different link layers by simply handling them datagrams to send
 * separation of concerns is made possible by the modularity of each layer and a common well-defined API to the layer below.
+
+---
 
 ### The network layer is **special**
 * We must use the **Internet Protocol(IP)**
