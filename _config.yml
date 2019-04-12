@@ -21,12 +21,13 @@ permalink: /:year/:month/:title.html
 
 jekyll_compose:
   draft_default_front_matter:
+    title:
     categories: blog
     tag: [programming,today,recommend]
   post_default_front_matter:
+    title:
     categories: blog
     tag: [programming,today,recommend]
-    published: false
 
 sass:
   sass_dir: _sass
