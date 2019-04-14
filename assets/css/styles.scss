@@ -1,6 +1,5 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 @import "code",
 "fonts"
 ;
@@ -76,20 +75,17 @@ blockquote {
     position: relative;
     text-decoration: none;
     white-space: nowrap;
+    background-color: transparent;
+    transition: background .15s cubic-bezier(0.33, 0.66, 0.66, 1);
+    border-bottom: 3px solid rgba(0,255,13, 0.5);
+    -webkit-box-shadow: inset 0 -4px 0 rgba(0,255,13, 0.5);
+    box-shadow: inset 0 -4px 0 rgba(0,255,13, 0.5);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
 
-    &::before {
-      content: '';
-      width: 100%;
-      height: 20%;
-      position: absolute;
-      bottom: 10%;
-      background: rgba(0,255,13, 0.5);
-      z-index: -1;
-      transition: height 0.5s ease;
-    }
-
-    &:hover::before {
-      height: 50%;
+    &:hover {
+      background: rgba(0,255,13, 0.5)
     }
   }
 }

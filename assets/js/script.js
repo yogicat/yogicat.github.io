@@ -1,15 +1,17 @@
-const Introduction = document.getElementById('introduction')
-const clickables = document.querySelectorAll('.clickable')
+(function() {
+  if (sessionStorage.fontsLoadedFoutWithClass) {
+    document.documentElement.classList += 'fonts-loaded'
+    return
+  }
 
-
-function handleClick(e) {
-  let child = e.target.querySelector('img')
-  child.classList.toggle('isShow')
-}
-
-clickables.forEach(item => {
-  item.addEventListener('click', handleClick)
-  item.addEventListener('touchstart', handleClick)
-  item.addEventListener('mouseover', handleClick)
-  item.addEventListener('mouseleave', handleClick)
-})
+  if ('fonts' in document) {
+    Promise.all([
+      document.fonts.load('200 Noto Sans'),
+      document.fonts.load('300 Noto Sans'),
+      document.fonts.load('600 Noto Sans'),
+    ]).then(function() {
+      document.documentElement.className += 'fonts-loaded'
+      sessionStorage.fontsLoadedFoutWithClass = true
+    })
+  }
+})()
