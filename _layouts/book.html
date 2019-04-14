@@ -3,12 +3,13 @@ layout: default
 ---
 {% include navigation.html foo='book' %}
 
-
-<h1 class="fw2 f3 mv0">{{ page.title }}</h1>
+<section class="w-70-ns">
+<h1 class="fw4 f3 mv0">{{ page.title }}</h1>
 <p class="fw2 f5">{{ page.author }}</p>
 <p>{{ page.rating }}</p>
 <hr>
-<div class="fw2 f5 lh-copy w-70-ns black-90 post">
+<div class="fw2 f5 lh-copy black-90 post">
 {{ content }}
 </div>
 <!-- <p>{{ page.date | date_to_string }}</p> -->
+</section>

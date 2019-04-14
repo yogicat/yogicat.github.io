@@ -13,33 +13,33 @@ title: home
 
   <p class="dark-green">✋ open for full-time job</p>
 </section>
-<section class="mt7">
-  <h4 class="f5 fw6">주요 스킬</h4>
+<section class="mt7 bt b--black-20">
+  <h4 class="f5 fw6 mb1">주요 스킬</h4>
   <div class="f3-ns fw2 f5">
     {% for item in site.data.text.skills %}
-      <span class="ph1 dib mv1 f4">
+      <span class="dib mr3 f4">
         {{ item.name }}
       </span>
     {% endfor %}
   </div>
-  <h4 class="f5 fw6 mt4">그외 디자인 스킬</h4>
+  <h4 class="f5 fw6 mt4 mb1">그외 디자인 스킬</h4>
   <div class="f3-ns fw2 f5">
     {% for item in site.data.text.secondary %}
-    <span class="ph1 dib mv1 f4">
+    <span class="dib mr3 f4">
       {{ item.name }}
     </span>
     {% endfor %}
   </div>
-  <h4 class="f5 fw6 mt4">요즘 배우고있는 것들</h4>
+  <h4 class="f5 fw6 mt4 mb1">요즘 배우고있는 것들</h4>
   <div class="f3-ns fw2 f5">
     {% for item in site.data.text.learning %}
-    <span class="ph1 dib mv1 f4">
+    <span class="dib mr3 f4">
       {{ item.name }}
     </span>
     {% endfor %}
   </div>
 </section>
-<section class="mt5">
+<section class="mt5 bt b--black-20">
   <h4 class="f5 fw6">토이 트로젝트</h4>
   <ul class="f3-ns fw2 f5 list pl0">
     {% for item in site.data.text.projects %}
@@ -52,7 +52,7 @@ title: home
     {% endfor %}
   </ul>
 </section>
-<section class="mt5">
+<section class="mt5 bt b--black-20">
   <h4 class="f5 fw6">관련 링크</h4>
   <ul class="f3 fw2 list pl0">
     {% for item in site.data.text.links %}
@@ -60,7 +60,7 @@ title: home
     {% endfor %}
   </ul>
 </section>
-<section class="mt5">
+<section class="mt5 bt b--black-20">
   <h4 class="f5 fw6">이메일</h4>
   <p class="f2-ns f3 fw2">
     hi@yogicat.dev

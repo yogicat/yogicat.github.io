@@ -1,6 +1,6 @@
 <nav class="mb5">
   {% for item in site.data.navigation %}
-    <a class="link no-underline black pv2 mr4 f4 dim" href="{{ item.link }}" {% if item.page==include.foo %}class="active"
+    <a class="link no-underline black pv2 mr4 f4 fw2 dim" href="{{ item.link }}" {% if item.page==include.foo %}class="active"
       {% endif %}>
       {{ item.name }}
     </a>
