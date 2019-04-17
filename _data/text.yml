@@ -10,9 +10,9 @@ projects:
   - name: "💨 Air CLI"
     desc: "원하는 위치의 현재 미세먼지 검색 커맨드라인 앱"
     link: "https://github.com/yogicat/air-cli.git"
-  # - name: "✍️ yodalist"
-  #   desc: "모든지 Rating"
-  #   link: "https://yodalist.fun"
+  - name: "🌯 Get Sub?"
+    desc: "서브웨이 메뉴 랜덤 셀렉터 커맨드라인 앱"
+    link: "https://github.com/yogicat/get-sub-cli"
 
 
 skills:
@@ -27,7 +27,6 @@ skills:
 learning:
   - name: Typescript
   - name: Ruby / Rails
-  - name: MongoDB
 
 secondary:
   - name: Adobe CC
