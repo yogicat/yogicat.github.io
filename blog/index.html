@@ -23,8 +23,10 @@ permalink: /blog/
     <span class="w1 h1 br-100 bg-dark-green mh2"></span>
     {% elsif post.tag == 'today' %}
     <span class="w1 h1 br-100 bg-gold mh2"></span>
-    {% else post.tag == 'til' %}
+    {% elsif post.tag == 'til' %}
     <span class="w1 h1 br-100 bg-blue mh2"></span>
+    {% elsif post.tag == 'algorithm' %}
+    <span class="w1 h1 br-100 bg-hot-pink mh2"></span>
     {% else %}
     <span class="w1 h1 br-100 bg-black mh2"></span>
     {% endif %}
