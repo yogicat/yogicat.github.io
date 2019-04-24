@@ -19,7 +19,7 @@ tag: programming
 
 ## Unpacking Argument Lists
 
-먼저 함수 호출 시 인자로 주어진 리스트를 unpacking 할 수 있다. 흔히 볼 수 있는 케이스가 `*argv` 가 아닐까 싶다. 딕셔너리에서 Key를 unpacking 하려면 `**kwargs`를 쓰면 된다.
+먼저 함수 호출 시 인자로 주어진 리스트를 unpacking 할 수 있다. 흔히 볼 수 있는 케이스가 `*args` 가 아닐까 싶다. 딕셔너리에서 Key를 unpacking 하려면 `**kwargs`를 쓰면 된다.
 
 ```py
 def foo(*args, **kwargs):
