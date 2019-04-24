@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 알고리즘 파이썬 Loop
+title: 파이썬 Loop
 categories: blog
 tag: algorithm
 date: 2019-04-24 12:06 +0900
 ---
-Hackerrank Python Loop
+
+Hackerrank에서 파이썬 퀴즈를 풀고 있다. 푸는것도 재밌는데 Discussion 뒤적거리는 재미가 쏠쏠하다.
 
 #### Task
 
@@ -19,6 +20,7 @@ Hackerrank Python Loop
 
 **Output**
 
+한 줄에 하나씩 출력하기
 ```
 0
 1
@@ -27,7 +29,7 @@ Hackerrank Python Loop
 16
 ```
 
-풀이
+**첫번째 풀이**
 
 ```py
 for i in range(0,n):
@@ -35,10 +37,13 @@ for i in range(0,n):
 ```
 
 
-리스트로 만들어 출력하기
+**다른 풀이 방법**
 
 ```py
-print([i**2 for i in range(n)])
-# [0, 1, 4, 9, 16] 이렇게 출력됨
-
+print(*[i**2 for i in range(n)], sep="\n")
 ```
+
+1. `[i**2 for i in range(n)]` - [0, 1, 4, ..] 리스트로 만들고
+2. `*[list]` - 리스트를 unpacking해서 출력
+
+

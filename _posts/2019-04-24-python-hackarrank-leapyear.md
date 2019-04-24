@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 알고리즘 파이썬 Leap Year
+title: 파이썬 Leap Year
 categories: blog
 tag: algorithm
 date: 2019-04-24 12:06 +0900

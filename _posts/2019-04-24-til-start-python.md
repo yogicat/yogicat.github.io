@@ -3,7 +3,7 @@ layout: post
 title: "오늘 공부한 것 - 파이썬 기본 🐍"
 categories: blog
 tag: til
-date: 2019-04-24 02:04 +0900
+date: 2019-04-23 23:04 +0900
 ---
 
 

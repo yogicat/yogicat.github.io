@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 알고리즘 파이썬 If Else
+title: 파이썬 If Else
 categories: blog
 tag: algorithm
 date: 2019-04-24 12:06 +0900
 ---
-Hackerrank Python If-Else
 
 #### Task
 
@@ -35,7 +34,7 @@ else:
 ```
 
 
-신기하게 딕셔너리를 만들어서 푼 경우도 있었다.
+또 다른 방법으로는 True, Flase를 키로 하는 딕셔너리를 만들어서 값을 반환하게 할 수도 있다.
 
 ```py
 

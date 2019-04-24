@@ -45,6 +45,7 @@ pre {
 
 hr {
   margin: 3rem 50% 2rem 0 !important;
+  opacity: 50%;
 }
 
 blockquote {
@@ -56,6 +57,19 @@ blockquote {
 }
 
 .post {
+
+  h3 {
+    font-weight: 400 !important;
+    margin-top: 3rem;
+  }
+
+  h1, h2 {
+    font-weight: 300;
+    margin-top: 3rem;
+  }
+
+
+
   li {
     line-height: 2;
   }
