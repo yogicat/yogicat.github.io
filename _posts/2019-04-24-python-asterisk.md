@@ -3,7 +3,7 @@ layout: post
 title: 파이썬에서 *asterisk**
 date: 2019-04-24 20:28 +0900
 categories: blog
-tag: programming
+tags: programming
 ---
 
 

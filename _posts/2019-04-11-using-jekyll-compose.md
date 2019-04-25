@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll Compose로 포스팅생성하기
 categories: blog
-tag: programming
+tags: programming
 date: 2019-04-11 12:02 +0900
 ---
 

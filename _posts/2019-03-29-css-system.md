@@ -3,7 +3,7 @@ layout: post
 title: "함수형 CSS, Tachyons"
 categories: blog
 comments: false
-tag: programming
+tags: programming
 ---
 
 Tachyons라이브러리로 함수형 CSS를 작성해보자.

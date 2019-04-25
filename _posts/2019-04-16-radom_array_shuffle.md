@@ -2,7 +2,7 @@
 layout: post
 title: 카드덱 셔플 알고리즘(Fisher–Yates)
 categories: blog
-tag: algorithm
+tags: algorithm
 date: 2019-04-15 13:24 +0900
 ---
 카드게임을 한다고 가정해보자. 대부분의 카드게임은 카드를 랜덤으로 섞는것에서 부터(셔플) 시작한다. 주어진 카드덱을 가지고 셔플덱을 만드는 방법은 카드를 원래의 카드덱에서 무작위로 한개씩 뽑아서 새로운 덱을 쌓아가는 방법이 있다.

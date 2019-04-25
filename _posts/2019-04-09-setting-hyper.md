@@ -2,7 +2,7 @@
 layout: post
 title: Hyper.js로 터미널꾸미기
 categories: blog
-tag: programming
+tags: programming
 date: 2019-04-09 00:00 +0000
 ---
 ![](/uploads/hyper-screenshot.png)

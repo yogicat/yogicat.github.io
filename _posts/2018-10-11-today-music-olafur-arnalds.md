@@ -3,7 +3,7 @@ title: 오늘 들은 음악 Olafur Arnalds
 layout: post
 date: 2018-10-11
 categories: blog
-tag: recommend
+tags: xyz
 
 ---
 <iframe width="100%" max-width="560" height="315" src="https://www.youtube-nocookie.com/embed/TpO_8tk6yNQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

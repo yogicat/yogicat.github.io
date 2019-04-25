@@ -2,7 +2,7 @@
 layout: post
 title: "오늘 공부한 것 🐍 "
 categories: blog
-tag: til
+tags: til
 date: 2019-04-24 23:04 +0900
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 파이썬 Leap Year
 categories: blog
-tag: algorithm
+tags: algorithm
 date: 2019-04-24 12:06 +0900
 ---
 Hackerrank Python Leap Year

@@ -2,7 +2,7 @@
 layout: post
 title: node에서 cli앱을 위한 arguments작업
 categories: blog
-tag: programming
+tags: programming
 date: 2019-04-12 14:08 +0900
 ---
 

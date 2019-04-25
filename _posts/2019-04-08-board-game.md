@@ -2,7 +2,7 @@
 layout: post
 title: "오늘의 보드게임"
 categories: blog
-tag: recommend
+tags: xyz
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "오늘의 음악, Tame Impala"
 categories: blog
-tag: recommend
+tags: xyz
 ---
 
 

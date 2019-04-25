@@ -2,7 +2,7 @@
 layout: post
 title: 오늘들은 팟캐스트 Replay All
 categories: blog
-tag: recommend
+tags: xyz
 date: 2019-04-16 14:15 +0900
 ---
 처음 **Replay All**을 듣게 된 건, 태국 가던 비행기에서였다. 저가항공에 경유까지 해야 돼서 엄청 괴로운 시간을 보내고 있었는데 마침 아이폰에 다운로드해놓은 Replay All에피소드가 있어서 듣게 되었다. 그전에는 인기 있는 건 알고 있었는데 들어보진 았았음.

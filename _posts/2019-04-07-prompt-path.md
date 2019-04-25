@@ -2,7 +2,7 @@
 layout: post
 title: "ZSH에서 PROMPT설정하기"
 categories: blog
-tag: programming
+tags: programming
 ---
 
 ![terminal](/uploads/Screen-Shot-2019-04-09.png)

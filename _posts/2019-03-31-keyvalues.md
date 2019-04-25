@@ -2,7 +2,7 @@
 layout: post
 title: "오늘 들은 팟캐스트, IndieHackers"
 categories: blog
-tag: recommend
+tags: xyz
 ---
 
 Indie Hackers 팟캐스트에서 굉장히 흥미롭고 영감을 주는 에피소드를 들었다.

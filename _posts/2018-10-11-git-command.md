@@ -3,7 +3,7 @@ title: "자주쓰는 GIT 명령어 🚩"
 layout: post
 date: 2018-10-11
 categories: blog
-tag: programming
+tags: programming
 ---
 
 

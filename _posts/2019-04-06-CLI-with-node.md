@@ -2,7 +2,7 @@
 layout: post
 title: "NODE CLI앱 만들기"
 categories: blog
-tag: programming
+tags: programming
 ---
 
 

@@ -3,7 +3,7 @@ title: "네트워킹에 대해 노트정리"
 layout: post
 date: 2018-10-22
 categories: blog
-tag: programming
+tags: programming
 ---
 
 
@@ -52,7 +52,7 @@ tag: programming
 
 ### Application Communication
 * Bidirectional, reliable byte stream
-	* Building lock of most applications today
+	* Building lock of most applications xyz
 	* Other models exist and are used
 * Abstracts away entire network - pipe between two programs
 * Application level controls communication pattern and payloads

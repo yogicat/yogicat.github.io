@@ -23,11 +23,11 @@ jekyll_compose:
   draft_default_front_matter:
     title:
     categories: blog
-    tag: [programming,today,recommend]
+    tags: [programming, xyz, til, algorithm]
   post_default_front_matter:
     title:
     categories: blog
-    tag: [programming,today,recommend]
+    tags: [programming, xyz, til, algorithm]
 
 sass:
   sass_dir: _sass

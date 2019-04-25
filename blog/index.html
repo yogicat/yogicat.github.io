@@ -6,8 +6,9 @@ permalink: /blog/
 
 {% include navigation.html foo='home'%}
 
+{% assign posts = site.categories.blog %}
 
-{% for post in site.categories.blog %}
+{% for post in posts %}
 
 {% assign currentdate = post.date | date: "%Y. %m" %}
   {% if currentdate != date %}
@@ -17,57 +18,9 @@ permalink: /blog/
 
   <a href="{{ post.url }}" class="link black dim pv3 fw2 f5 f3-ns flex items-center bb b--black-20">
     <span class="tl fw3 f5 w1">{{ post.date | date: "%d" }}</span>
-    {% if post.tag == 'recommend' %}
-    <span class="w1 h1 br-100 bg-orange mh2"></span>
-    {% elsif post.tag == 'programming' %}
-    <span class="w1 h1 br-100 bg-dark-green mh2"></span>
-    {% elsif post.tag == 'today' %}
-    <span class="w1 h1 br-100 bg-gold mh2"></span>
-    {% elsif post.tag == 'til' %}
-    <span class="w1 h1 br-100 bg-blue mh2"></span>
-    {% elsif post.tag == 'algorithm' %}
-    <span class="w1 h1 br-100 bg-hot-pink mh2"></span>
-    {% else %}
-    <span class="w1 h1 br-100 bg-black mh2"></span>
-    {% endif %}
+    <span class="w1 h1 br-100 mh2 {{post.tags}}"></span>
     <span class="mv0">{{ post.title | truncate: 30, '..' }}</span>
   </a>
   {% endfor %}
 </div>
 
-
-{% if paginator.total_pages > 1 %}
-<ul class="list flex ml0 pa0">
-    {% if paginator.page > 2 %}
-    <li class="previous">
-        <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">First</a>
-    </li>
-    {% endif %}
-
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-
-    {% if paginator.page_trail %}
-      {% for trail in paginator.page_trail %}
-        <li {% if page.url == trail.path %}class="selected"{% endif %}>
-            <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
-        </li>
-      {% endfor %}
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-
-     {% if paginator.last_page %}
-    <li class="previous">
-        <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Last</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
