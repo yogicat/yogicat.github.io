@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 오늘 배운것 DB & 장고
+title: 오늘 공부한 것 DB & 장고
 date: 2019-05-01 23:53 +0900
 categories: blog
 tags: til
