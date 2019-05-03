@@ -5,6 +5,7 @@ author: Mary Oliver
 categories: book
 img: http://t1.daumcdn.net/book/KOR9788960901551?moddttm=20180915082419
 rating: ""
+tags: book
 
 ---
 

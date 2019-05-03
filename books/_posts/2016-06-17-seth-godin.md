@@ -5,6 +5,8 @@ author: 세스 고딘
 categories: book
 img: "https://books.google.co.kr/books/content?id=xrGap1BdiGEC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71qHg2_RXp59adEVNo3vaMOaVauzK2c82BTe91AvAQwjyxdkjCimlLc3fCkYjbytgVjgE_miBgouJTSLrjw4EGCcTNywLTQXy1_sphsEzYsS4WL28uFDXvqH-hHCGeMrnkhu8P1"
 rating: ★★★★★
+tags: book
+
 ---
 
 시작하지 않으면 아무 일도 일어나지 않는다.

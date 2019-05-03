@@ -5,6 +5,8 @@ author: 마르쿠스아우렐리우스
 categories: book
 img: "http://image.yes24.com/momo/TopCate388/MidCate004/38615471.jpg"
 rating: ★★★★★
+tags: book
+
 ---
 
 

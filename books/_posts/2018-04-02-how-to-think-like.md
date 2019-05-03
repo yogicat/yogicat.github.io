@@ -5,6 +5,8 @@ author: "Debbie Millman"
 categories: book
 img: "https://images-na.ssl-images-amazon.com/images/I/41yWMZy60VL._SX331_BO1,204,203,200_.jpg"
 ratings: ★★★
+tags: book
+
 ---
 
 

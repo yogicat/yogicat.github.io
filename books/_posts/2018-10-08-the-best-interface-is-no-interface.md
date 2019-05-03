@@ -5,6 +5,7 @@ author: Golden Krishna
 categories: book
 img: https://images-na.ssl-images-amazon.com/images/I/31GWQcVx1KL._SX331_BO1,204,203,200_.jpg
 ratings: "★★★"
+tags: book
 
 ---
 

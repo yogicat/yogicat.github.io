@@ -5,6 +5,8 @@ author: 올리버 색스
 categories: book
 img: "http://image.yes24.com/momo/TopCate1027/MidCate010/102563585.jpg"
 rating: ★★★★★
+tags: book
+
 ---
 
 생각보다 두꺼운 책이었는데, 한장 한장 넘기기가 아쉬울 정도로 아름답게 쓰여진 책이었다. 어떤장은 너무 슬퍼서 같이 눈물이 났다. 많은 역경에도 불구하고 스스로가 되는 것을 포기하지 않았기에 더욱 감동적이었다.

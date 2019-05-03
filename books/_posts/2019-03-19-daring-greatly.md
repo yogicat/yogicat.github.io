@@ -5,6 +5,7 @@ title: Daring Greatly
 author: Brene Brown
 rating: 👍
 img: https://images-na.ssl-images-amazon.com/images/I/51v2GEMz%2BjL.jpg
+tags: book
 
 ---
 

@@ -5,6 +5,8 @@ author: "Rosamund Stone Zander, Benjamin Zander"
 categories: book
 img: "https://images-na.ssl-images-amazon.com/images/I/415w87bIPiL.jpg"
 ratings: ★★★★★
+tags: book
+
 ---
 
 

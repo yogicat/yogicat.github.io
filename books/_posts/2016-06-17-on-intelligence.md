@@ -5,6 +5,7 @@ author: 제프 호킨스
 categories: book
 img: "http://image.yes24.com/momo/TopCate82/MidCate09/8189626.jpg"
 rating: ★★★★★
+tags: book
 ---
 
 생각하는 뇌,생각하는 기계/제프 호킨스

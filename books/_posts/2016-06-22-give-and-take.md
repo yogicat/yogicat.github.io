@@ -5,6 +5,8 @@ author: 애덤 그랜트
 categories: book
 img: "http://image.yes24.com/momo/TopCate2147/MidCate010/123243026.jpg"
 rating: ★★★★★
+tags: book
+
 ---
 
 스탠퍼드대학의 심리학자 데일 밀러(Dale Miller)는 사람들은 "타인이 이기적으로 행동할 듯한 상황에서" 자신만 이타적으로 행동하면 이용당할 수 있다고 걱정하며, "경쟁 추구를 합리적이고 적절한 행동"으로 판단한다고 설명한다.

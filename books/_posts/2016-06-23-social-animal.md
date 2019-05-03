@@ -5,6 +5,8 @@ author: 데이비드 브룩스
 categories: book
 img: "http://image.yes24.com/momo/TopCate0001/kepub/L_111310.jpg"
 rating: ★★★★★
+tags: book
+
 ---
 
 

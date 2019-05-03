@@ -5,6 +5,7 @@ author: Ryan Holiday
 categories: book
 ratings: ★★★★
 img: https://images-na.ssl-images-amazon.com/images/I/41o0Fkf%2BvfL.jpg
+tags: book
 
 ---
 

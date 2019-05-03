@@ -5,6 +5,8 @@ author: 브리엔 브라운
 categories: book
 img: "https://images-na.ssl-images-amazon.com/images/I/51kp9GZFUYL.jpg"
 rating: ★★★★★
+tags: book
+
 ---
 
 

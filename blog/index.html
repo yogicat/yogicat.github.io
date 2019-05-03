@@ -6,7 +6,8 @@ permalink: /blog/
 
 {% include navigation.html foo='home'%}
 
-{% assign posts = site.categories.blog %}
+{% comment %} {% assign posts = site.categories.blog %} {% endcomment %}
+{% assign posts = site.posts %}
 
 {% for post in posts %}
 

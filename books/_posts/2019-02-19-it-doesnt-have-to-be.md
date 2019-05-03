@@ -5,6 +5,7 @@ title: It doesn't have to be crazy at work
 author: Jason Fried
 rating: 🍅🍅🍅
 img: https://d188rgcu4zozwl.cloudfront.net/content/B079WV79TK/resources/1126814781
+tags: book
 
 ---
 
