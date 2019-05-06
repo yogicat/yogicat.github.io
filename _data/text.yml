@@ -7,11 +7,14 @@ links:
     link: "https://instagram.com/ohdayoda"
 
 projects:
+  - name: "🚧 Happy Pets"
+    desc: "Django, Heroku, S3를 이용한 장고 연습 프로젝트"
+    link: "https://github.com/yogicat/django-pet-project"
   - name: "💨 Air CLI"
-    desc: "원하는 위치의 현재 미세먼지 검색 커맨드라인 앱"
+    desc: "원하는 위치의 현재 미세먼지 검색 nodejs 커맨드라인 앱"
     link: "https://github.com/yogicat/air-cli.git"
   - name: "🌯 Get Sub?"
-    desc: "서브웨이 메뉴 랜덤 셀렉터 커맨드라인 앱"
+    desc: "서브웨이 메뉴 랜덤 셀렉터 nodejs 커맨드라인 앱"
     link: "https://github.com/yogicat/get-sub-cli"
 
 
