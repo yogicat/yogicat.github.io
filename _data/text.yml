@@ -24,12 +24,9 @@ skills:
   - name: Redux
   - name: Sass
   - name: Webpack
-  - name: Node
   - name: Git
-
-learning:
-  - name: Typescript
-  - name: Python / Django
+  - name: Python
+  - name: Django
 
 secondary:
   - name: Adobe CC

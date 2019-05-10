@@ -5,14 +5,14 @@ title: home
 
 {% include navigation.html foo='home'%}
 <section>
-  <p class="f1-ns f3 fw2 lh-copy" id="introduction">
-    프론트엔드 개발자 <strong>오다혜</strong>입니다.<br>
-    디자인과 개발을 통해 아름답고 즐거운 경험을 만드는 것에 관심이 많습니다.
+  <p class="f2-ns f3 fw2 lh-copy" id="introduction">
+    Hello I am Yogicat — Developer in Seoul, Korea <br />
+    프론트엔드와 백엔드 모두에 관심이 많습니다. 현재는 파이썬과 장고에 좀 더 집중하고 있습니다. 개인적인 궁금증 해결을 위한 독서를 좋아합니다. 음악만큼 팟캐스트를 즐겨 듣습니다.
   </p>
 
 </section>
 <section class="mt7 bt b--black-20">
-  <h4 class="f5 fw6 mb1">주요 스킬</h4>
+  <h4 class="f5 fw6 mb1">Skills</h4>
   <div class="f3-ns fw2 f5">
     {% for item in site.data.text.skills %}
       <span class="dib mr3 f4">
@@ -20,7 +20,7 @@ title: home
       </span>
     {% endfor %}
   </div>
-  <h4 class="f5 fw6 mt4 mb1">그외 디자인 스킬</h4>
+  <h4 class="f5 fw6 mt4 mb1">Other skills</h4>
   <div class="f3-ns fw2 f5">
     {% for item in site.data.text.secondary %}
     <span class="dib mr3 f4">
@@ -28,7 +28,7 @@ title: home
     </span>
     {% endfor %}
   </div>
-  <h4 class="f5 fw6 mt4 mb1">요즘 배우고있는 것들</h4>
+  <h4 class="f5 fw6 mt4 mb1">Learning</h4>
   <div class="f3-ns fw2 f5">
     {% for item in site.data.text.learning %}
     <span class="dib mr3 f4">
@@ -38,7 +38,7 @@ title: home
   </div>
 </section>
 <section class="mt5 bt b--black-20">
-  <h4 class="f5 fw6">토이 트로젝트</h4>
+  <h4 class="f5 fw6">Toy Projects</h4>
   <ul class="f3-ns fw2 f5 list pl0">
     {% for item in site.data.text.projects %}
     <li>
@@ -51,7 +51,7 @@ title: home
   </ul>
 </section>
 <section class="mt5 bt b--black-20">
-  <h4 class="f5 fw6">관련 링크</h4>
+  <h4 class="f5 fw6">Links</h4>
   <ul class="f3 fw2 list pl0">
     {% for item in site.data.text.links %}
     <li><a class="link black no-underline hover-green db pv2" href={{item.link}} target="_blank">{{ item.name }}</a></li>
@@ -59,7 +59,7 @@ title: home
   </ul>
 </section>
 <section class="mt5 bt b--black-20">
-  <h4 class="f5 fw6">이메일</h4>
+  <h4 class="f5 fw6">Contact</h4>
   <p class="f2-ns f3 fw2">
     hi@yogicat.dev
   </p>
