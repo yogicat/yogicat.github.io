@@ -20,7 +20,7 @@ permalink: /blog/
   <a href="{{ post.url }}" class="link black dim pv3 fw2 f5 f3-ns flex items-center bb b--black-20">
     <span class="tl fw3 f5 w1">{{ post.date | date: "%d" }}</span>
     <span class="w1 h1 br-100 mh2 {{post.tags}}"></span>
-    <span class="mv0">{{ post.title | truncate: 30, '..' }}</span>
+    <span class="mv0">{{ post.title | truncate: 40, '..' }}</span>
   </a>
   {% endfor %}
 </div>

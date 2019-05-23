@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 파이썬 Object Oriendted Programming
+title: 파이썬 Object Oriented Programming
 categories: blog
 tags: programming
 date: 2019-05-22
