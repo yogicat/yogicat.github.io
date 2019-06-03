@@ -2,8 +2,6 @@
   link: /
 - name: 책
   link: /book
-- name: 블로그
-  link: /blog
-# - name: 태그
-#   link: /tags
+- name: 소개
+  link: /about
 

@@ -1,0 +1,27 @@
+---
+layout: default
+title: about
+permalink: /about/
+---
+
+
+{% include navigation.html foo='home'%}
+<section>
+  <p class="f5 fw2 lh-copy" id="introduction">
+    요가, 자전거, 캠핑, 동물 그리고 자연을 좋아하는 개발자 🌞<br />
+  </p>
+</section>
+<section class="mt5 bt b--black-20">
+  <h4 class="f5 fw6">Links</h4>
+  <ul class="f3 fw2 list pl0">
+    {% for item in site.data.text.links %}
+    <li><a class="link black no-underline hover-green db pv2" href={{item.link}} target="_blank">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+<section class="mt5 bt b--black-20">
+  <h4 class="f5 fw6">Contact</h4>
+  <p class="f3 fw2">
+    hi@yogicat.dev
+  </p>
+</section>
