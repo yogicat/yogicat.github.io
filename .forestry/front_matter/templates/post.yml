@@ -17,3 +17,5 @@ fields:
 - type: text
   name: tags
   label: tags
+pages:
+- _posts/django-모델-필드-옵션-이해하기.md
