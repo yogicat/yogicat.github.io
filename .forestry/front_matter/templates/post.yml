@@ -17,5 +17,14 @@ fields:
 - type: text
   name: tags
   label: tags
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
 pages:
 - _posts/django-모델-필드-옵션-이해하기.md
