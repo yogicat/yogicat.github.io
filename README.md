@@ -1,2 +1,2 @@
 
-Yogicat's Blog
+Yogicat's Blog :)
