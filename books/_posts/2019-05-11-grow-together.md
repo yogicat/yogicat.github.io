@@ -3,7 +3,7 @@ layout: post
 title: 함께 자라기, 애자일로 가는길
 author: 김창준
 categories: book
-img: "http://image.yes24.com/Goods/67350256/800x0"
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/agile.jpg"
 categories: book
 tags: book
 date: 2019-05-11 13:41 +0900

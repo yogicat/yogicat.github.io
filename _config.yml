@@ -41,3 +41,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+img_url: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/"

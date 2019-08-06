@@ -3,7 +3,7 @@ layout: book
 title:  "생각하는 뇌, 생각하는 기계"
 author: 제프 호킨스
 categories: book
-img: "http://image.yes24.com/momo/TopCate82/MidCate09/8189626.jpg"
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/on-intelligence.jpg"
 rating: ★★★★★
 tags: book
 ---

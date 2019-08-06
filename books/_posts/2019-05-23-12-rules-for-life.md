@@ -2,7 +2,7 @@
 layout: post
 title: 12가지 인생의 법칙
 author: 조단 피터슨
-img: http://image.yes24.com/Goods/66360714/800x0
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/12ruls-of-life.jpeg"
 categories: book
 tags: book
 date: 2019-05-21 13:41 +0900

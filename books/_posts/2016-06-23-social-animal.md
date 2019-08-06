@@ -3,7 +3,7 @@ layout: book
 title:  소셜 애니멀
 author: 데이비드 브룩스
 categories: book
-img: "http://image.yes24.com/momo/TopCate0001/kepub/L_111310.jpg"
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/social-animal.jpeg"
 rating: ★★★★★
 tags: book
 

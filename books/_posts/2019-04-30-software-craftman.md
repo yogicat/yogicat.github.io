@@ -5,7 +5,7 @@ tags: book
 title: 소프트웨어 장인
 author: 산드로 만쿠소
 rating: "\U0001F44D"
-img: http://image.kyobobook.co.kr/images/book/xlarge/489/x9791186659489.jpg
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/software-craftman.jpg"
 date: 2019-04-30 12:31 +0900
 ---
 올해들어 처음으로 미용실에 갔고, 지루한 시간이 두려워 손에 집히는 책 딱 한권을 가져갔다.

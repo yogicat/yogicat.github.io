@@ -3,7 +3,7 @@ layout: book
 title:  "기브 앤 테이크"
 author: 애덤 그랜트
 categories: book
-img: "http://image.yes24.com/momo/TopCate2147/MidCate010/123243026.jpg"
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/give-and-take.jpeg"
 rating: ★★★★★
 tags: book
 

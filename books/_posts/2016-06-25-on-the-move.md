@@ -3,7 +3,7 @@ layout: book
 title:  온더무브
 author: 올리버 색스
 categories: book
-img: "http://image.yes24.com/momo/TopCate1027/MidCate010/102563585.jpg"
+img: "https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/on-the-move.jpg"
 rating: ★★★★★
 tags: book
 
