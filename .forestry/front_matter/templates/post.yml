@@ -27,4 +27,5 @@ fields:
       format: markdown
   label: content
 pages:
+- _posts/docker-설치하기.md
 - _posts/django-모델-필드-옵션-이해하기.md
