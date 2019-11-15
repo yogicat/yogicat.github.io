@@ -8,12 +8,14 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
 - type: datetime
   name: date
   label: date
 - type: text
   name: categories
   label: categories
+  default: blog
 - type: text
   name: tags
   label: tags
