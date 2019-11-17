@@ -16,8 +16,22 @@ fields:
   name: categories
   label: categories
   default: blog
+  description: blog, book
 - type: text
   name: tags
   label: tags
+  description: programming, book
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+  description: Jess Hokins
+- name: img
+  type: text
+  config:
+    required: false
+  label: img
+  description: '"https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/img.jpg"'
 pages:
 - _posts/2019-11-13-docker-설치하기.md
