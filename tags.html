@@ -19,15 +19,15 @@ title: Tags
 
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-  <h2 class="fw3 f4 mb1 mt5 mb3">
-    <span class="w1 h1 br-100 mh2 {{ this_word | cgi_escape }} dib"></span>
+  <h2 class="fw3 f4 mt4 mb2">
+    <span class="w1 h1 br-100 {{ this_word | cgi_escape }} dib"></span>
     {{ this_word }}
   </h2>
   <div class="posts">
 
     {% for post in site.tags[this_word] %}{% if post.title != null %}
 
-    <a class="link black dim pv3 fw2 f5 f3-ns flex items-center bb b--black-20"  href="{{ post.url }}">
+    <a class="link black dim pv2 fw2 f5 flex items-center bb b--black-20"  href="{{ post.url }}">
       <span class="tl fw3 f5">{{ post.date | date: "%Y.%m.%d" }}</span>
       <span class="mv0 pl2">{{ post.title }}</span>
     </a>
