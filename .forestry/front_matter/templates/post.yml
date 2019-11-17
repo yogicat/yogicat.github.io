@@ -20,4 +20,4 @@ fields:
   name: tags
   label: tags
 pages:
-- _posts/docker-설치하기.md
+- _posts/2019-11-13-docker-설치하기.md
