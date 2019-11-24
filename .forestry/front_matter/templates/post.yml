@@ -35,6 +35,5 @@ fields:
   description: '"https://yogicat-blog.s3.ap-northeast-2.amazonaws.com/cover/img.jpg"'
 pages:
 - _posts/웹에서의-메모리-누수-memory-leak.md
-- _posts/웹-페이지-메모리-이슈.md
 - _posts/books/힐빌리의-노래.md
 - _posts/2019-11-13-docker-설치하기.md
